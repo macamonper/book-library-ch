@@ -1,0 +1,27 @@
+@use "_variables.scss";
+
+.navbar-container {
+  @include row;
+  height: 2em;
+  padding: 1em;
+  justify-content: space-between;
+  align-items: center;
+  background-color: variables.$background-color;
+  border: 1px solid variables.$border-color;
+
+  .menu-items {
+    width: 10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    a{
+        text-decoration: none;
+        color: variables.$secondary-color;
+
+    }
+    a:focus{
+        color: variables.$primary-color;
+    }
+  }
+}

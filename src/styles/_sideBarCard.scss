@@ -1,0 +1,28 @@
+@use "_variables.scss";
+
+.sideBarCard {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1.5px solid variables.$border-color;
+  border-radius: 3%;
+  background-color: variables.$primary-color;
+  padding: 1em;
+
+  img {
+    width: 50%;
+  }
+
+  div {
+    text-align: center;
+
+    h4 {
+      border: 0.5px solid variables.$secondary-color;
+      border-radius: 25px;
+      padding: 0.3em;
+    }
+  }
+}

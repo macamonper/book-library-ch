@@ -1,7 +1,13 @@
+import React from "react";
+import RelevanceCard from "../cards/RelevanceCard";
+
 const LastSeen = () => {
     return (
-
-        <div>last Seen</div>
-    )
+        <div className="lastSeenCard">
+          <div>
+         
+          </div>
+        </div>
+    );
 };
 export default LastSeen;

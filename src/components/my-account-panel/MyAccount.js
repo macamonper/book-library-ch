@@ -1,21 +1,21 @@
 import React from "react";
-import Favorites from './Favorites';
+import Favorites, { Relevance } from './Relevance';
 import LastSeen from './LastSeen';
 import SideBar from "./SideBar";
 
 const MyAccount = () => {
     return (
+      <div className="background">
         <div className="myAccountPanel">
-            <SideBar></SideBar>
-            <div className="userActivity">
-                <Favorites></Favorites>
-                <LastSeen></LastSeen>
-            </div>
-       </div>
-           
-
-
-    )
+          <SideBar></SideBar>
+          <div className="userActivity">
+            <Relevance></Relevance>
+            <LastSeen></LastSeen>
+            <LastSeen></LastSeen>
+          </div>
+        </div>
+      </div>
+    );
 }
 
 export default MyAccount;

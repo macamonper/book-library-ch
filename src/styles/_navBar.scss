@@ -2,11 +2,11 @@
 
 .navbar-container {
   @include row;
-  height: 2em;
+  height: 3vh;
   padding: 1em;
   justify-content: space-between;
   align-items: center;
-  background-color: variables.$background-color;
+  background-color: variables.$secondary-color;
   border: 1px solid variables.$border-color;
 
   .menu-items {
@@ -17,7 +17,7 @@
 
     a{
         text-decoration: none;
-        color: variables.$secondary-color;
+        color: variables.$user-activity-bg-color;
 
     }
     a:focus{

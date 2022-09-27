@@ -1,5 +1,4 @@
 import React from "react";
-import RelevanceCard from "../cards/RelevanceCard";
 
 const LastSeen = () => {
     return (

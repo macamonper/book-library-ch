@@ -3,7 +3,7 @@ const SideBarCard = () => {
     return (
         <div className='sideBarCard'>
 
-            <img src={user}></img>
+            <img src={user} alt="user"></img>
             <div>
                 <h4>Britney Spears</h4>
                 <h4>Birthday: 08/20</h4>

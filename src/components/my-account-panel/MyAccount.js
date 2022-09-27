@@ -1,5 +1,5 @@
 import React from "react";
-import Favorites, { Relevance } from './Relevance';
+import { Relevance } from './Relevance';
 import LastSeen from './LastSeen';
 import SideBar from "./SideBar";
 

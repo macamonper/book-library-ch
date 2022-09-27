@@ -20,8 +20,8 @@
   height: 10em;
   margin-right: 1em;
   border: 1.5px solid variables.$border-color;
-  border-radius: 3%;
-  background-color: variables.$background-color;
+  border-radius: 3px;
+  background-color: variables.$user-activity-bg-color;
   padding: 0.5em;
   overflow: hidden;
   cursor: pointer;

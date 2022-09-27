@@ -1,3 +1,5 @@
+@use "_variables.scss";
+
 * {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -5,4 +7,10 @@
 
 @mixin row {
   display: flex;
+}
+
+@mixin border {
+  border: 1.5px solid variables.$border-color;
+  border-radius: 3%;
+  background-color: variables.$background-color;
 }

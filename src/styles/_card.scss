@@ -1,12 +1,10 @@
 @use "_variables.scss";
 
 .card {
+  @include border;
   width: 12em;
   height: 19em;
   margin: 0.5em;
-  border: 1.5px solid variables.$border-color;
-  border-radius: 3%;
-  background-color: variables.$background-color;
   display: flex;
   flex-direction: column;
   justify-content: center;

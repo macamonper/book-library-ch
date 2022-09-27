@@ -4,13 +4,10 @@ import useGetBooks from "../hooks/useGetBooks";
 import Card from "./cards/Card";
 
 const Home = () => {
-  
   const allBooks = useGetBooks(urlBase);
 
   return (
-
     <div className="home">
-  
       {allBooks.collection.map((book) => (
         <Card
           key={book.id}

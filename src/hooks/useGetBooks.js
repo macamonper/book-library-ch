@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
- const useGetBooks = (url) => {
-    
-    const [books, setBooks] = useState([]);
+const useGetBooks = (url) => {
+  const [books, setBooks] = useState([]);
 
   useEffect(() => {
     axios

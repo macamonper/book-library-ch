@@ -1,0 +1,26 @@
+@use "_variables.scss";
+
+.card {
+  width: 12em;
+  height: 19em;
+  margin: 0.5em;
+  border: 1.5px solid variables.$border-color;
+  border-radius: 3%;
+  background-color: variables.$background-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  div {
+    text-align: center;
+    p {
+      font-size: 0.7rem;
+    }
+  }
+}

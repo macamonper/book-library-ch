@@ -1,0 +1,33 @@
+@use "_variables.scss";
+
+.navbar-container {
+  @include row;
+  height: 3vh;
+  padding: 1em;
+  justify-content: space-between;
+  align-items: center;
+  background-color: variables.$secondary-color;
+  border: 1px solid variables.$border-color;
+
+  .menu-items {
+    width: 10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    a{
+        text-decoration: none;
+        color: variables.$user-activity-bg-color;
+
+    }
+    a:focus{
+        color: variables.$primary-color;
+    }
+  }
+
+    .search-bar{
+        padding: 0.5em;
+        border: 1px solid variables.$border-color;
+        border-radius: 3%;
+    }
+}

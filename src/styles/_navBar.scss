@@ -15,19 +15,18 @@
     flex-direction: row;
     justify-content: space-between;
 
-    a{
-        text-decoration: none;
-        color: variables.$user-activity-bg-color;
-
+    a {
+      text-decoration: none;
+      color: variables.$user-activity-bg-color;
     }
-    a:focus{
-        color: variables.$primary-color;
+    a:focus {
+      color: variables.$primary-color;
     }
   }
 
-    .search-bar{
-        padding: 0.5em;
-        border: 1px solid variables.$border-color;
-        border-radius: 3%;
-    }
+  .search-bar {
+    padding: 0.5em;
+    border: 1px solid variables.$border-color;
+    border-radius: 3%;
+  }
 }

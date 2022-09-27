@@ -6,14 +6,13 @@
   flex-direction: column;
   justify-content: center;
 
-  h3{
-    margin:0em;
-    padding-bottom: 0.5em
+  h3 {
+    margin: 0em;
+    padding-bottom: 0.5em;
   }
   .relevanceCards {
     @include row;
     justify-content: space-between;
-
   }
 }
 .relevanceCard {

@@ -24,4 +24,10 @@
         color: variables.$primary-color;
     }
   }
+
+    .search-bar{
+        padding: 0.5em;
+        border: 1px solid variables.$border-color;
+        border-radius: 3%;
+    }
 }

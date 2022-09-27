@@ -1,0 +1,7 @@
+@use "_variables.scss";
+
+.search-panel {
+  display: flex;
+  flex-direction: column;
+  background-color: variables.$primary-color;
+}

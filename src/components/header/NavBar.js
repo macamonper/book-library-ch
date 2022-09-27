@@ -1,6 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import "../../styles/styles";
+import SearchBar from "./SearchBar";
 
 const NavBar = () => {
   return (
@@ -10,7 +11,7 @@ const NavBar = () => {
         <Link to="/my-account">My account</Link>
       </div>
 
-   
+      <SearchBar />
     </div>
   );
 };

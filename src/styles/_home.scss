@@ -1,0 +1,8 @@
+@use "_variables.scss";
+
+.home {
+  @include row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: variables.$primary-color;
+}

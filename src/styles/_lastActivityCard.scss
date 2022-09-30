@@ -25,6 +25,7 @@
   .relevanceCards {
     @include row;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 }
 .relevanceCard {

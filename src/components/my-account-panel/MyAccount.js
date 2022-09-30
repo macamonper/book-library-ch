@@ -1,20 +1,13 @@
 import React from "react";
-import { Relevance } from "./Relevance";
-import LastSeen from "./LastSeen";
-import SideBar from "./SideBar";
+import WelcomeBar from "../header/WelcomeBar";
+import Panel from "./Panel";
 
 const MyAccount = () => {
   return (
-    <div className="background">
-      <div className="myAccountPanel">
-        <SideBar></SideBar>
-        <div className="userActivity">
-          <Relevance></Relevance>
-          <LastSeen></LastSeen>
-          <LastSeen></LastSeen>
-        </div>
-      </div>
-    </div>
+    <React.Fragment>
+      <WelcomeBar></WelcomeBar>
+      <Panel />
+    </React.Fragment>
   );
 };
 

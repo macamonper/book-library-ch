@@ -1,0 +1,57 @@
+@use "_variables.scss";
+
+.lastActivityCard {
+  @include border;
+  background-color: variables.$user-activity-bg-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  margin-bottom: 1em;
+
+  .titleLastActivity {
+    font-weight: 400;
+    font-size: 0.9rem;
+
+    span:nth-of-type(1) {
+      margin-right: 0.5em;
+      img {
+        width: 1em;
+        height: 0.6em;
+        object-fit: contain;
+      }
+    }
+  }
+  .relevanceCards {
+    @include row;
+    justify-content: space-between;
+  }
+}
+.relevanceCard {
+  @include border;
+  width: 6em;
+  height: 8em;
+  margin: 1em;
+  background-color: variables.$user-activity-bg-color;
+  padding: 0.5em;
+  cursor: pointer;
+
+  div:nth-of-type(2) {
+    margin-top: 1em;
+    p {
+      width: 100px;
+      font-size: 0.6rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .cover {
+    height: 100%;
+    width: 100%;
+  }
+  .cover img {
+    height: 100%;
+    width: 100%;
+  }
+}

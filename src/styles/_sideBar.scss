@@ -1,0 +1,17 @@
+@use "_variables.scss";
+
+.sideBarMenu {
+  background-color: variables.$secondary-color;
+  height: 100%;
+  width: 3%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+@media only screen and (max-width: 580px) {
+  .sideBarMenu {
+    width: 2em;
+  }
+}
+
+
